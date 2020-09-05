@@ -50,6 +50,11 @@ table {
   width: 100%;
 }
 
+table:first-of-type 
+tfoot:first-of-type > tr:first-child > td[colspan="3"] {
+  font-weight: normal;
+}
+
 table:first-of-type {
   border-top: 3px solid black;
 }
