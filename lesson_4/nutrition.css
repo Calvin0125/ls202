@@ -74,9 +74,18 @@ table:last-of-type th {
   padding: 1px 10px 1px 0;
 }
 
+
 table:last-of-type th[scope="col"] {
   padding: 1px 10px;
   border-bottom: 1px solid black;
+}
+
+table:last-of-type td:last-of-type {
+  padding-right: 0px;
+}
+
+table:last-of-type th[scope="col"]:last-of-type {
+  padding-right: 0px;
 }
 
 table:last-of-type td {
@@ -127,6 +136,7 @@ table:first-of-type td:last-child {
   text-align: right;
   width: 99%
 }
+
 
 td.indent + td dt {
   font-weight: normal;
