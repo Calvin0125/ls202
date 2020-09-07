@@ -1,0 +1,1 @@
+The purpose of this project was to duplicate a page that discusses different types of CSS display and positioning. I wrote all of the code myself, but I was able to view the original page to see what the finished product should look like. 
