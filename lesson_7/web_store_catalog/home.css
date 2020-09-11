@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  background-color: #047ec1;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  color: white;
+  margin: auto;
+  padding: 25px 0 35px 25px;
+  max-width: 900px;
+  font-size: 2.4rem;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: #ffd505;
+}
+
+figure {
+  height: 235px;
+  width: 200px;
+  background-color: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+img {
+  height: 145px;
+  display: block;
+  margin: auto;
+}
+
+img.small {
+  width: 90px;
+}
+
+img.medium {
+  width: 120px;
+}
+
+img.large {
+  width: 165px;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto 40px auto;
+  background-color: #ececec;
+  padding: 22.5px 17.5px 32.7px 17.5px;
+  box-sizing: border-box;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 7.5px;
+}
+
+input:checked + figure > img {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 100px;
+  left: 50%;
+  margin-left: -200px;
+  z-index: 2;
+}
+
+input:checked + figure figcaption {
+  padding-top: 145px;
+}
+
+input:checked + figure::before {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+  background: rgba(0, 0, 0, .4);
+}
