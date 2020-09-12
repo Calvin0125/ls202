@@ -106,7 +106,6 @@ ol {
 
 main {
   flex-grow: 1;
-  position: relative;
 }
 
 main dd {
@@ -178,7 +177,7 @@ form {
   width: 650px;
   position: absolute;
   top: 105px;
-  left: 105px;
+  right: 185px;
   padding: 38px 38px 38px 30px;
   border: 1px solid black;
 
@@ -292,6 +291,10 @@ button {
 
   input:checked + label img {
     left: 365px;
+  }
+
+  form {
+    left: 0;
   }
 
 
